@@ -130,9 +130,9 @@ export function About() {
               <img
                 src="/pics/wetransfer_fb_img_1757232587151-jpg_2025-09-07_0812/Personal/6.jpg"
                 alt="Background"
-                className="w-full h-full object-cover opacity-10"
+                className="w-full h-full object-cover opacity-40"
               />
-              <div className="absolute inset-0 bg-white/90 dark:bg-gray-700/90"></div>
+              <div className="absolute inset-0 bg-white/60 dark:bg-gray-700/60"></div>
             </div>
             <div className="relative z-10 md:flex">
               <div className="md:w-1/3">
@@ -311,9 +311,9 @@ export function About() {
               <img
                 src="/pics/wetransfer_fb_img_1757232587151-jpg_2025-09-07_0812/Personal/7.jpg"
                 alt="Leadership Journey"
-                className="w-full h-full object-cover opacity-20"
+                className="w-full h-full object-cover opacity-50"
               />
-              <div className="absolute inset-0 bg-blue-900/70"></div>
+              <div className="absolute inset-0 bg-blue-900/50"></div>
             </div>
             
             <div className="relative z-10 container mx-auto px-4">
@@ -388,9 +388,9 @@ export function About() {
               <img
                 src="/pics/profile/8.jpg"
                 alt="Message from MCA"
-                className="w-full h-full object-cover opacity-20"
+                className="w-full h-full object-cover opacity-50"
               />
-              <div className="absolute inset-0 bg-green-900/70"></div>
+              <div className="absolute inset-0 bg-green-900/50"></div>
             </div>
             
             <div className="relative z-10 container mx-auto px-4">
@@ -426,9 +426,9 @@ export function About() {
               <img
                 src="/pics/profile/88.jpg"
                 alt="Key Achievements"
-                className="w-full h-full object-cover opacity-20"
+                className="w-full h-full object-cover opacity-50"
               />
-              <div className="absolute inset-0 bg-purple-900/70"></div>
+              <div className="absolute inset-0 bg-purple-900/50"></div>
             </div>
             
             <div className="relative z-10 container mx-auto px-4">

@@ -104,9 +104,9 @@ export default function Home() {
               <img
                 src="/pics/profile/21.jpg"
                 alt="Meet Your Representative"
-                className="w-full h-full object-cover opacity-10"
+                className="w-full h-full object-cover opacity-40"
               />
-              <div className="absolute inset-0 bg-gray-50/90 dark:bg-gray-800/90"></div>
+              <div className="absolute inset-0 bg-gray-50/60 dark:bg-gray-800/60"></div>
             </div>
             <div className="relative z-10 container mx-auto px-4">
               <div className="text-center mb-12">
@@ -181,11 +181,11 @@ export default function Home() {
             {/* Background Image */}
             <div className="absolute inset-0">
               <img
-                src="/pics/profile/3.jpg"
+                src="/pics/profile/23.jpg"
                 alt="Community Services"
-                className="w-full h-full object-cover opacity-10"
+                className="w-full h-full object-cover opacity-40"
               />
-              <div className="absolute inset-0 bg-white/90 dark:bg-gray-900/90"></div>
+              <div className="absolute inset-0 bg-white/60 dark:bg-gray-900/60"></div>
             </div>
             <div className="relative z-10 container mx-auto px-4">
               <div className="text-center mb-12">
@@ -367,9 +367,9 @@ export default function Home() {
               <img
                 src="/pics/profile/6.png"
                 alt="Quick Access"
-                className="w-full h-full object-cover opacity-10"
+                className="w-full h-full object-cover opacity-40"
               />
-              <div className="absolute inset-0 bg-white/90 dark:bg-gray-900/90"></div>
+              <div className="absolute inset-0 bg-white/60 dark:bg-gray-900/60"></div>
             </div>
             <div className="relative z-10 container mx-auto px-4">
               <div className="text-center mb-12">
