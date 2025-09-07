@@ -98,8 +98,17 @@ export default function Home() {
           </section>
 
           {/* MCA Leadership Section */}
-          <section className="py-16 sm:py-20 bg-gray-50 dark:bg-gray-800">
-            <div className="container mx-auto px-4">
+          <section className="relative py-16 sm:py-20 bg-gray-50 dark:bg-gray-800 overflow-hidden">
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <img
+                src="/pics/profile/21.jpg"
+                alt="Meet Your Representative"
+                className="w-full h-full object-cover opacity-10"
+              />
+              <div className="absolute inset-0 bg-gray-50/90 dark:bg-gray-800/90"></div>
+            </div>
+            <div className="relative z-10 container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
                   Meet Your <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Representative</span>
@@ -352,8 +361,17 @@ export default function Home() {
           </section>
 
           {/* Quick Access Section */}
-          <section className="py-16 sm:py-20 bg-white dark:bg-gray-900">
-            <div className="container mx-auto px-4">
+          <section className="relative py-16 sm:py-20 bg-white dark:bg-gray-900 overflow-hidden">
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <img
+                src="/pics/profile/6.png"
+                alt="Quick Access"
+                className="w-full h-full object-cover opacity-10"
+              />
+              <div className="absolute inset-0 bg-white/90 dark:bg-gray-900/90"></div>
+            </div>
+            <div className="relative z-10 container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
                   Quick <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Access</span>

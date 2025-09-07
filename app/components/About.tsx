@@ -1,6 +1,6 @@
 'use client'
 
-import { MapPin, Users, Calendar, Target, Phone, Mail } from 'lucide-react'
+import { MapPin, Users, Calendar, Target, Phone, Mail, GraduationCap, Heart, Car, Wheat, Droplets } from 'lucide-react'
 
 export function About() {
   const quickFacts = [
@@ -124,8 +124,17 @@ export function About() {
 
         {/* MCA Profile Section */}
         <div className="mb-16">
-          <div className="bg-white dark:bg-gray-700 rounded-2xl shadow-xl overflow-hidden">
-            <div className="md:flex">
+          <div className="relative bg-white dark:bg-gray-700 rounded-2xl shadow-xl overflow-hidden">
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <img
+                src="/pics/wetransfer_fb_img_1757232587151-jpg_2025-09-07_0812/Personal/6.jpg"
+                alt="Background"
+                className="w-full h-full object-cover opacity-10"
+              />
+              <div className="absolute inset-0 bg-white/90 dark:bg-gray-700/90"></div>
+            </div>
+            <div className="relative z-10 md:flex">
               <div className="md:w-1/3">
                 <img
                   src="/pics/profile/4.jpeg"
@@ -300,7 +309,7 @@ export function About() {
             {/* Background Image */}
             <div className="absolute inset-0">
               <img
-                src="/pics/profile/6.png"
+                src="/pics/wetransfer_fb_img_1757232587151-jpg_2025-09-07_0812/Personal/7.jpg"
                 alt="Leadership Journey"
                 className="w-full h-full object-cover opacity-20"
               />
@@ -365,6 +374,162 @@ export function About() {
                     </blockquote>
                     <cite className="text-blue-200 font-semibold">- Hon. Violet Makhanu</cite>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* Message from the MCA Section */}
+        <div className="mt-20">
+          <section className="relative py-16 bg-gradient-to-br from-green-900 to-green-800 overflow-hidden">
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <img
+                src="/pics/profile/8.jpg"
+                alt="Message from MCA"
+                className="w-full h-full object-cover opacity-20"
+              />
+              <div className="absolute inset-0 bg-green-900/70"></div>
+            </div>
+            
+            <div className="relative z-10 container mx-auto px-4">
+              <div className="text-center mb-12">
+                <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Message from the MCA
+                </h3>
+                <p className="text-xl text-green-200 max-w-3xl mx-auto">
+                  A personal message from Hon. Violet Makhanu to the people of Mihuu Ward
+                </p>
+              </div>
+
+              <div className="max-w-4xl mx-auto">
+                <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl text-center">
+                  <blockquote className="text-xl md:text-2xl text-white italic mb-6 leading-relaxed">
+                    "Dear residents of Mihuu Ward, it is my honor and privilege to serve as your elected representative. 
+                    Together, we are building a ward that prioritizes transparency, inclusivity, and sustainable development. 
+                    Every project we undertake, every decision we make, is guided by your needs and aspirations. 
+                    I remain committed to ensuring that every voice is heard and every community benefits from our collective progress."
+                  </blockquote>
+                  <cite className="text-green-200 font-semibold text-lg">- Hon. Violet Makhanu, MCA Mihuu Ward</cite>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* Key Achievements & Initiatives Section */}
+        <div className="mt-20">
+          <section className="relative py-16 bg-gradient-to-br from-purple-900 to-purple-800 overflow-hidden">
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <img
+                src="/pics/profile/88.jpg"
+                alt="Key Achievements"
+                className="w-full h-full object-cover opacity-20"
+              />
+              <div className="absolute inset-0 bg-purple-900/70"></div>
+            </div>
+            
+            <div className="relative z-10 container mx-auto px-4">
+              <div className="text-center mb-12">
+                <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Key Achievements & Initiatives
+                </h3>
+                <p className="text-xl text-purple-200 max-w-3xl mx-auto">
+                  Major milestones and ongoing initiatives transforming Mihuu Ward
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <div className="text-center mb-4">
+                    <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <GraduationCap className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-2">Education Infrastructure</h4>
+                  </div>
+                  <ul className="text-purple-200 space-y-2 text-sm">
+                    <li>• 5 ECDE classrooms constructed</li>
+                    <li>• KSh 2.5M education budget allocated</li>
+                    <li>• 200+ bursaries distributed</li>
+                    <li>• School water projects completed</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <div className="text-center mb-4">
+                    <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Heart className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-2">Healthcare Development</h4>
+                  </div>
+                  <ul className="text-purple-200 space-y-2 text-sm">
+                    <li>• Lukusi Dispensary upgrade (KSh 30M)</li>
+                    <li>• Maternal health programs expanded</li>
+                    <li>• Medical equipment procurement</li>
+                    <li>• Community health initiatives</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <div className="text-center mb-4">
+                    <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Car className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-2">Infrastructure Projects</h4>
+                  </div>
+                  <ul className="text-purple-200 space-y-2 text-sm">
+                    <li>• Kodhiambo-Tinga road opened</li>
+                    <li>• 2 modern markets constructed</li>
+                    <li>• Bridge construction ongoing</li>
+                    <li>• Water drilling projects</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <div className="text-center mb-4">
+                    <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-2">Community Engagement</h4>
+                  </div>
+                  <ul className="text-purple-200 space-y-2 text-sm">
+                    <li>• Monthly public forums</li>
+                    <li>• Transparent budget reporting</li>
+                    <li>• Youth empowerment programs</li>
+                    <li>• Women's economic groups</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <div className="text-center mb-4">
+                    <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Wheat className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-2">Agricultural Support</h4>
+                  </div>
+                  <ul className="text-purple-200 space-y-2 text-sm">
+                    <li>• Farmer training programs</li>
+                    <li>• Seed distribution initiatives</li>
+                    <li>• Irrigation system development</li>
+                    <li>• Market linkage programs</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <div className="text-center mb-4">
+                    <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Droplets className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-2">Water & Sanitation</h4>
+                  </div>
+                  <ul className="text-purple-200 space-y-2 text-sm">
+                    <li>• 8 boreholes drilled</li>
+                    <li>• Water point installations</li>
+                    <li>• Sanitation facility upgrades</li>
+                    <li>• Clean water access improved</li>
+                  </ul>
                 </div>
               </div>
             </div>
