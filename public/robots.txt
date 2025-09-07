@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mihuu.netlify.app/sitemap.xml
+
+# Disallow admin areas (if any in future)
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all public content
+Allow: /
+Allow: /about
+Allow: /projects
+Allow: /education
+Allow: /health
+Allow: /infrastructure
+Allow: /transparency
+Allow: /news
+Allow: /contact

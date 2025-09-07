@@ -1,0 +1,21 @@
+{
+  "name": "Mihuu Ward - Official Website",
+  "short_name": "Mihuu Ward",
+  "description": "Official website for Mihuu Ward - Empowering Community Growth Through Transparent Service Delivery",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["government", "public-service", "community"],
+  "lang": "en-US",
+  "scope": "/",
+  "prefer_related_applications": false
+}
